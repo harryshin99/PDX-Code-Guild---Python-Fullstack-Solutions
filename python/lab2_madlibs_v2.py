@@ -12,10 +12,6 @@ snl = noun_list.split(', ')
 sal = adj_list.split(', ')
 svl = verb_list.split(', ')
 
-# snl = random.choice(snl)
-# sal = random.choice(sal)
-# svl = random.choice(svl)
-
 print(f'''
 No animal must ever live in a {random.choice(snl)}, or sleep in
 a {random.choice(snl)}, or wear clothes, or drink {random.choice(snl)}, or
