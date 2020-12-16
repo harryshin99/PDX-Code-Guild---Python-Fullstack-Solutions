@@ -5,4 +5,4 @@
 
 [Lab 02](/python/lab2_madlibs.py)
 
-[Lab 03](/python/lab2_madlibs_v2.py)
+[Lab 02v2](/python/lab2_madlibs_v2.py)
