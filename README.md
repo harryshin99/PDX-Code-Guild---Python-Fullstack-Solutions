@@ -8,3 +8,5 @@
 [Lab 02v2](/python/lab2_madlibs_v2.py)
 
 [Lab 03v2](/python/lab3v2.py)
+
+[Lab 04](/python/lab4.py)
