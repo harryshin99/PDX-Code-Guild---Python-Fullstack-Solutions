@@ -9,7 +9,7 @@ eye_list = ["^", "-", "o", "+", "=", ".", "T", "TT", "Q", "*", ">"]
 
 mouth_list = ["__", " . ", ",", "c", "_"]
 
-side_list = ["(", "[", "{"]
+side_list = ["(", "[", "{", ""]
 
 
 num = 0
@@ -29,6 +29,8 @@ while num < 5:
         right_side = "]"
     elif random_side == "{":
         right_side = "}"
+    elif random_side == "":
+        right_side = ""
 
     print(random_side + random_eye + random.choice(mouth_list) + right_eye + right_side)
     num += 1
