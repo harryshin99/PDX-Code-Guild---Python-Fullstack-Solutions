@@ -11,9 +11,7 @@ mouth_list = ["__", " . ", ",", "c", "_"]
 
 side_list = ["(", "[", "{", ""]
 
-
 num = 0
-
 while num < 5:
 
     random_eye = random.choice(eye_list)
