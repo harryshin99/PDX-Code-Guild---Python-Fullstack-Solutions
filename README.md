@@ -14,3 +14,9 @@
 [Lab 05v2](/python/lab5v2.py)
 
 [Lab 05v3](/python/lab5v3.py)
+
+[Lab 06v2](/python/lab6v2.py)
+
+[Lab 06v3](/python/lab6v3.py)
+
+[Lab 06v4](/python/lab6v4.py)
