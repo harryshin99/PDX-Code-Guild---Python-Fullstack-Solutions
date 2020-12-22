@@ -7,7 +7,7 @@ import random
 
 print("Let's play Rock, Paper, Scissors, Lizard, Spock!")
 
-moves = ['✊', '✋', '👉', '🖖', '🦎']
+moves = ['🗿', '📃', '🗡', '🖖', '🦎']
 
 answer = "yes"
 
@@ -18,11 +18,11 @@ while answer == 'yes':
     computer = random.choice(moves)
 
     if user == 'rock':
-        user = '✊'
+        user = '🗿'
     elif user == 'paper':
-        user = '✋'
+        user = '📃'
     elif user == 'scissors':
-        user = '👉'
+        user = '🗡'
     elif user == 'lizard':
         user = '🦎'
     else:
@@ -30,28 +30,28 @@ while answer == 'yes':
 
     if user == computer:
         print(f"You entered {user}. The computer entered {computer}. It was a tie!")
-    elif user == '✊':
-        if computer == '🦎' or computer == '👉':
+    elif user == '🗿':
+        if computer == '🦎' or computer == '🗡':
             print(f"You entered {user}. The computer entered {computer}. You win!")
         else:
             print(f"You entered {user}. The computer entered {computer}. You lose!")
-    elif user == '👉':
-        if computer == '✋ ' or computer == '🦎':
+    elif user == '🗡':
+        if computer == '📃 ' or computer == '🦎':
             print(f"You entered {user}. The computer entered {computer}. You win!")
         else:
             print(f"You entered {user}. The computer entered {computer}. You lose!")
-    elif user == '✋':
-        if computer == '✊' or computer == '🖖':
+    elif user == '📃':
+        if computer == '🗿' or computer == '🖖':
             print(f"You entered {user}. The computer entered {computer}. You win!")
         else:
             print(f"You entered {user}. The computer entered {computer}. You lose!")
     elif user == '🦎':
-        if computer == '✋' or computer == '🖖':
+        if computer == '📃' or computer == '🖖':
             print(f"You entered {user}. The computer entered {computer}. You win!")
         else:
             print(f"You entered {user}. The computer entered {computer}. You lose!")
     elif user == '🖖':
-        if computer == '✊' or computer == '👉':
+        if computer == '🗿' or computer == '🗡':
             print(f"You entered {user}. The computer entered {computer}. You win!")
         else:
             print(f"You entered {user}. The computer entered {computer}. You lose!")
