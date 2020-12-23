@@ -24,3 +24,9 @@
 [Lab 07v2](/python/lab7v2.py)
 
 [Lab 07v3](/python/lab7v3.py)
+
+[Lab 08v1](/python/lab8v1.py)
+
+[Lab 08v2](/python/lab8v2.py)
+
+[Lab 08v3](/python/lab8v3.py)
