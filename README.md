@@ -32,3 +32,9 @@
 [Lab 08v3](/python/lab8v3.py)
 
 [Lab 09v3](/python/lab9v3.py)
+
+[Lab 11v2](/python/lab11v2.py)
+
+[Lab 12](/python/lab12.py)
+
+[Mob Lab - Pick 6](/python/labmob_pick6.py)

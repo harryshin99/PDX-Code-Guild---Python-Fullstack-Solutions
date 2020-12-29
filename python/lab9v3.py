@@ -1,3 +1,8 @@
+"""
+Creator: Harry Shin
+Date: 22 Dec 2020
+"""
+
 import string
 
 lowercase = string.printable
