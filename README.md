@@ -40,3 +40,9 @@
 [Mob Lab - Pick 6](/python/labmob_pick6.py)
 
 [Lab 13v4](/python/lab13v4.py)
+
+[Lab 14v2](/python/lab14v2.py)
+
+[Lab 15v2](/python/lab15v2.py)
+
+[Lab 16](/python/lab16.py)
