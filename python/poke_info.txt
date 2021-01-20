@@ -1,0 +1,39 @@
+master-ball $0 Catches a wild Pokémon every time.
+ultra-ball $800 Tries to catch a wild Pokémon.  Success rate is 2×.
+great-ball $600 Tries to catch a wild Pokémon.  Success rate is 1.5×.
+poke-ball $200 Tries to catch a wild Pokémon.
+safari-ball $0 Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.
+net-ball $1000 Tries to catch a wild Pokémon.  Success rate is 3× for water and bug Pokémon.
+dive-ball $1000 Tries to catch a wild Pokémon. Success rate is 3.5× when underwater, fishing, or surfing.
+nest-ball $1000 Tries to catch a wild Pokémon.  Success rate is 3.9× for level 1 Pokémon, and drops steadily to 1× at level 30.
+repeat-ball $1000 Tries to catch a wild Pokémon.  Success rate is 3× for previously-caught Pokémon.
+timer-ball $1000 Tries to catch a wild Pokémon. Success rate increases by 0.1× (Gen V: 0.3×) every turn, to a max of 4×.
+luxury-ball $1000 Tries to catch a wild Pokémon.  Caught Pokémon start with 200 happiness.
+premier-ball $20 Tries to catch a wild Pokémon.
+dusk-ball $1000 Tries to catch a wild Pokémon.  Success rate is 3.5× at night and in caves.
+heal-ball $300 Tries to catch a wild Pokémon.  Caught Pokémon are immediately healed.
+quick-ball $1000 Tries to catch a wild Pokémon. Success rate is 4× (Gen V: 5×), but only on the first turn.
+
+
+
+
+# print(pokeball_data)
+
+# print(pokeball)
+# for pair in pokeball:
+    # print(pair['name'])
+    # print(pair['url'])
+
+# index = 0
+# item_url = pokeball[index]['url']
+# item_response = requests.get(item_url)
+# item_data = json.loads(item_response.text)
+
+# print(item_data["name"], item_data["cost"])
+
+# for index in range(len(pokeball_info)):
+#     print(pokeball_info[index])
+
+
+
+

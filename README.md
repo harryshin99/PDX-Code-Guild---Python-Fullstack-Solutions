@@ -46,3 +46,11 @@
 [Lab 15v2](/python/lab15v2.py)
 
 [Lab 16](/python/lab16.py)
+
+[Lab 17](/python/lab17v2.py)
+
+[Lab 18](/python/lab18v2.py)
+
+[Lab 19](/python/lab19.py)
+
+[Mini Capstone](/python/mini_capstone.py)
