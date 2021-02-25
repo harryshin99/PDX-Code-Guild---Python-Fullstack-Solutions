@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.common.dev.min.js"
+    integrity="sha512-PkyFg1MEb/EwsFAqzqvZqWdMT4ItV+E1NgOtfBC9X8UecJcO9bwirD+v/9tJwci4wTNHdNYBk4ev6ceb1hy73g=="
+    crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="app">
+        <!-- <script>
+            setInterval(function(){
+                let [hour, minute, second, meridian]= new Date().toLocaleTimeString("en-US").split(/:| /);
+                // console.log(hour, minute, second)
+                document.getElementById("currentTime").innerHTML = (hour + ":" + minute + ":" + second + " " + meridian);
+            }, 1000);
+        </script> -->
+        <div>
+            <!-- <button @click="startClock">Start Clock</button> -->
+            <p class="clock">{{hour}}:{{minute}}:{{second}} {{meridian}}</p>
+        </div>
+        <div id="timer">
+            <button id="stopWatch" @click="stopWatch">Start Stopwatch</button>
+            <div v-if="!notInitiated">
+                {{ startTimer.getSeconds() }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

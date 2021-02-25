@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div class="intro">Welcome to He-Man's random password generator</div>
+        <div class="instructions">Enter an integer to set your password length</div>
+        <input class="input" v-model="passwordLength "type="text" placeholder="Enter password length" v-on:keyup.enter="message">
+        <button v-on:click="message">Transform</button>
+        <div class="passwordResult">{{ result }}</div>
+    </div>
+</body>
+</html>

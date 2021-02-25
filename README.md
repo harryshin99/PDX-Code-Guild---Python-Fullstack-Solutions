@@ -54,3 +54,25 @@
 [Lab 19](/python/lab19.py)
 
 [Mini Capstone](/python/mini_capstone.py)
+
+[HTML Lab 1](/html/lab1)
+
+[HTML Lab 2](/html/lab2)
+
+[HTML Lab 3](/html/lab3)
+
+[JS Lab 1](/javascript/labs/lab1)
+
+[JS Lab 2](/javascript/labs/lab2)
+
+[JS Lab 3](/javascript/labs/lab3)
+
+[JS Lab 4](/javascript/labs/lab4)
+
+[JS Lab 5](/javascript/labs/lab5)
+
+[JS Lab 6](/javascript/labs/lab6)
+
+[JS Lab 7](/javascript/labs/lab7)
+
+[JS Lab 8](/javascript/labs/lab8)

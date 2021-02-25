@@ -1,0 +1,34 @@
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/399728.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.instructions {
+    font-size: 15pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 1em;
+    padding-left: 310px;
+}
+
+.input {
+    /* padding-left: 175px; */
+    margin-left: 325px;
+}
+
+.passwordResult {
+    font-size: 30pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 200px;
+}

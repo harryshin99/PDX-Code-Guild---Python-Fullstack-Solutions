@@ -1,15 +1,21 @@
-# num_list = [1, 3, 4, 1, 10, 3, 4, 6, 2, 4, 6]
+import math
 
-# highest_num = 0
-# for index in range(len(num_list)):
-#     print(num_list[index])
-#     if num_list[index] > highest_num:
-#         highest_num = num_list[index]
-
-# print(highest_num)
-import random
-
-if random.randint(1,5) == random.randint(1,5):
-    print("success!")
-
-
+class Point:
+    def __init__(self, x, y): # this is the initializer
+        self.x = x # these are member variables
+        self.y = y
+    
+    def distance(self, p): # method, or 'member function'
+        dx = self.x - p.x
+        dy = self.y - p.y
+        return math.sqrt(dx*dx + dy*dy)
+    
+p1 = Point(5, 2) # call the initializer, instantiate the class
+p2 = Point(8, 4)
+print(p1.x) # 5
+print(p1.y) # 2
+print(p2.x)
+print(p2.y)
+# print(type(p1)) # Point
+print(p1.distance(p2))
+print(p2.distance(p1))

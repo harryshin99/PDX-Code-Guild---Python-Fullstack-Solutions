@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Digital 7";
+    src: url(fonts/digital-7.ttf);
+}
+
+.clock {
+    font-size: 150pt;
+    font-family: 'Digital 7';
+    text-align: center;
+}
