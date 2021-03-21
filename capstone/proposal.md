@@ -1,7 +1,7 @@
 ## Capstone Proposal
 
 
-#### What is [capstone]?
+## What is [capstone]?
 
 this is dummy text
 
