@@ -1,13 +1,13 @@
 ## Capstone Proposal
-
+----------------------------------
 
 #### What is [capstone]?
-
+-----------------
 this is dummy text
 
 
 #### Project Overview
-
+-----------------------------
 ej;hef=e;flkjwe;fkojwl;fkeew
 
 #### Functionality
@@ -15,7 +15,7 @@ ej;hef=e;flkjwe;fkojwl;fkeew
 wefhwefhwfhkwf
 
 #### Data Model
-
+---------
 ekfw;lfjkwfejw
 
 #### Schedule
